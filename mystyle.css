@@ -1,0 +1,40 @@
+#cabecera {
+	width: 100%;
+	border: 1px solid black;
+	height: 19%%;
+}
+
+#contenido {
+	width: 100%;
+	border: 1px solid lime;
+	height: 59%;
+}
+
+#menu {
+	width: 19%;
+	height: 59%;
+	float: left;
+	border: 1px solid blue;
+}
+
+#entradas {
+	width: 59%;
+	float: left;
+	border: 1px solid red;
+	height: 59%;
+}
+ 
+#destacados {
+	width: 19%;
+	float: left;
+	border: 1px solid purple;
+	height: 59%;
+}
+
+#footer {
+	width: 100%;
+	/*clear: both; */
+	border: 1px solid grey;
+	position: absolute;
+  	bottom: 0;
+}
