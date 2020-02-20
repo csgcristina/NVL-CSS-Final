@@ -1,40 +1,119 @@
+body {
+	font-family: Helvetica;
+}
+
+table, th, td {
+	padding: 5px 5px 5px 5px;
+  	text-align: left;
+  	width: auto;
+}
+
+caption {
+	text-align: left;
+	margin: 2px 2px 2px 2px;
+	color: #003153;
+}
+
+a {
+	color: #003153;
+}
+
+
+[data-bisayascent] {
+	color: #7fd1b0
+}
+
+[data-bisayasori] {
+	color: #dea94c
+}
+
+[data-palawan] {
+	color: #003153
+}
+
+
 #cabecera {
 	width: 100%;
-	border: 1px solid black;
-	height: 19%%;
+	height: 9%;
+	margin: 0 auto;
+	text-align: center;
+	color: #003153;
+	background-color: #dea94c;
+	font-size: 40pt;
+	padding: 5px 5px 5px 5px;
 }
 
 #contenido {
 	width: 100%;
-	border: 1px solid lime;
-	height: 59%;
+	/*height: 100%;*/
 }
 
 #menu {
 	width: 19%;
 	height: 59%;
 	float: left;
-	border: 1px solid blue;
+	margin: 30px 10px 10px 10px;
+	background-color: #7fd1b0;
+
+}
+
+div.menu {
+	text-align: center;
+}
+
+.menutable {
+	align-self: center;
+	padding: 5px 5px 5px 5px;
+	margin: 0 auto;
+	margin-top: 10px;
 }
 
 #entradas {
 	width: 59%;
 	float: left;
-	border: 1px solid red;
-	height: 59%;
+	height: 100%;
+	margin: 10px 5px 10px 5px;
+	overflow: auto;
 }
  
+ .entradaTipo {
+ 	padding: 10px 10px 10px 10px;
+ 	margin: 20px 10px 20px 10px;
+ 	background-color: linen;
+ 	color: #003153;
+ }
 #destacados {
 	width: 19%;
 	float: left;
-	border: 1px solid purple;
 	height: 59%;
+	margin: 30px 5px 10px 5px;
+	background-color: #7fd1b0
+
+}
+
+.destacados {
+	text-align: center;
 }
 
 #footer {
 	width: 100%;
-	/*clear: both; */
-	border: 1px solid grey;
-	position: absolute;
-  	bottom: 0;
+	/*clear: both;*/
+	float:right;
+  	margin: 10px 5px 10px 5px;
+  	background-color: #dea94c;
+}
+
+footer > div {
+	float: left;
+	width: 33%;
+	height: auto;
+	
+}
+
+footer > div > p {
+	text-align: center;
+}
+
+.imagen {
+	width: 100%;
 }
